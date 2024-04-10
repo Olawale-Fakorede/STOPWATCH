@@ -1,0 +1,192 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: lightgrey;
+}
+
+#main{
+    width: 55vw;
+    height: 65vh;
+    border: 6px groove greenyellow;
+    box-sizing: border-box;
+    box-shadow: -2px -2px 4px 4px green,
+                    2px 2px 2px 2px green;
+    border-radius: 8px;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    background: url(stopwatpics.jpg);
+    background-size: cover;
+}
+
+#firstDiv{
+    width: 50vw;
+    height: 150px;
+    border: none solid firebrick;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 100px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 45px;
+    color: snow;
+}
+
+#secondDiv{
+    width: 50vw;
+    height: 100px;
+    border: none solid firebrick;
+    margin-top: 40px;
+    margin-left: 25px;
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 5px;
+}
+
+
+#btn1{
+    height: 45px;
+    /* width: 70px; */
+    margin-top: 20px;
+    border-radius: 7px;
+    border: none;
+    border: solid rgb(28, 184, 106);
+    background-color: rgb(18, 197, 107);
+    color: ghostwhite;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 180px;
+}
+
+#btn2{
+    height: 45px;
+    /* width: 70px; */
+    margin-top: 20px;
+    border-radius: 7px;
+    border: none;
+    border: solid rgb(31, 177, 104);
+    background-color: rgb(30, 197, 113);
+    color: ghostwhite;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+#btn3{
+    height: 45px;
+    /* width: 70px; */
+    margin-top: 20px;
+    border-radius: 7px;
+    border: none;
+    border: solid rgb(30, 184, 107);
+    background-color: rgb(30, 184, 107);
+    color: ghostwhite;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        background-color: grey;
+    }
+    
+    #main{
+        width: auto;
+        height: 45vh;
+        border: 3px groove rgba(114, 172, 26, 0.705);
+        box-sizing: border-box;
+        box-shadow: -2px -2px 4px 4px green,
+                        2px 2px 2px 2px green;
+        border-radius: 8px;
+        position: absolute;
+        top: 15%;
+        left: 2%;
+        right: 2%;
+        background: url(stopwatpics.jpg);
+        background-size: cover;
+    }
+    
+    #firstDiv{
+        width: 30vw;
+        height: 100px;
+        border: none solid firebrick;
+        /* margin-top: 10px; */
+        margin-left: 35px;
+        font-size: 50px;
+        border-radius: 4px;
+        text-align: center;
+        margin-top: 45px;
+        color: snow;
+    }
+    
+    #secondDiv{
+        width: 30vw;
+        height: 100px;
+        border: none solid firebrick;
+        margin-top: 5px;
+        margin-left: 25px;
+        display: grid;
+        grid-template-columns: auto;
+        /* justify-content: space-around; */
+        padding: 5px;
+        justify-content: center;
+    }
+    
+    
+    #btn1{
+        height: 45px;
+        width: 120px;
+        margin-top: 20px;
+        border-radius: 7px;
+        border: none;
+        border: solid rgb(28, 184, 106);
+        background-color: rgb(18, 197, 107);
+        color: ghostwhite;
+        padding: 10px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 80px;
+    }
+    
+    #btn2{
+        height: 45px;
+        width: 120px;
+        margin-top: 30px;
+        border-radius: 7px;
+        border: none;
+        border: solid rgb(31, 177, 104);
+        background-color: rgb(30, 197, 113);
+        color: ghostwhite;
+        padding: 10px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 80px;
+    }
+    
+    #btn3{
+        height: 45px;
+        width: 120px;
+        margin-top: 30px;
+        border-radius: 7px;
+        border: none;
+        border: solid rgb(30, 184, 107);
+        background-color: rgb(30, 184, 107);
+        color: ghostwhite;
+        padding: 10px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 80px;
+    }
+    
+}
